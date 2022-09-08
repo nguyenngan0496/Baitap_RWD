@@ -2,6 +2,29 @@
     margin:0;
     box-sizing: border-box;
 }
+
+@media screen and (max-width:768px) {
+    .left-bar {
+        width:25%
+    }
+
+    article {
+        width: 75%
+    }
+
+    .right-bar {
+        width: 100%;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .left-bar, article, .right-bar {
+        width: 100%;
+        height: 200px;
+    }
+}
+
 /* CSS header */
 header {
     height: 70px;
@@ -40,3 +63,4 @@ footer {
     height: 50px;
     background-color: #515136;
 }
+
