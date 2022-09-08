@@ -1,0 +1,40 @@
+* {
+    margin:0
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: #2E3D33;
+}
+
+.right-bar {
+    float: left;
+    width:50% ;
+    height: 800px;
+    background-color: black;
+    
+}
+
+.left-bar {
+    float: left;
+    width: 25%;
+    height: 800px;
+    background-color:#746A3C ;
+    margin:0px
+}
+
+
+article {
+    float: left;
+    width:25% ;
+    height: 800px;
+    background-color: #746A3C ;
+    
+}
+footer {
+    clear: both;
+    width: 100%;
+    height: 50px;
+    background-color: #515136;
+}
