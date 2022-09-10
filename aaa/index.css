@@ -2,17 +2,6 @@
     box-sizing: border-box;
 }
 
-@media screen and (max-width: 700px) {
-    .responsive {
-        width: 50%;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    .responsive {
-        width: 100%;
-    }
-}
 
 div.gallery img {
     width: 100%;
@@ -34,4 +23,14 @@ div.desc {
 }
 
 
+@media screen and (max-width: 700px) {
+    .responsive {
+        width: 50%;
+    }
+}
 
+@media screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
